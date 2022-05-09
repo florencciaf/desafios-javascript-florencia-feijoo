@@ -58,6 +58,6 @@ for (const product of productsData) {
 //welcome msg
 let userName = prompt("¡Hola! ¿Cómo te llamás?");
 
-if (userName != "" & isNaN(userName)) {
+if (userName != "" && isNaN(userName)) {
     welcomeMsg.innerText = "Bienvenido/a a iCook, " + userName; 
 }
